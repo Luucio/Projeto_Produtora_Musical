@@ -1,2 +1,12 @@
 @import url(styles/header.css);
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+:root{
+    --cor-douradoEscuro: #c1850b;
+    --cor-douradoEscuro2: #be8005;
+    --cor-douradoClaro: #f8f1a5;
+}
+
+body{
+    display: flex;
+}
