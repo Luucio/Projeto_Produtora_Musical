@@ -19,6 +19,7 @@
     height: 440px;
     background-image: url(img/imagem\ section1.svg);
     background-repeat: no-repeat;
+    background-size: contain;
     font-family: 'Poppins';
 }
 
@@ -49,6 +50,6 @@
 
 .section1__conteudos__logo{
     width: 100px;
-    margin-bottom: 7etpx;
+    margin-bottom: 7px;
 }
 
