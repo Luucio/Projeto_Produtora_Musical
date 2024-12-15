@@ -7,6 +7,48 @@
     --cor-douradoClaro: #f8f1a5;
 }
 
-body{
+.section1__conteudos{
     display: flex;
+    flex-direction: column;
+    padding: 75px 0px 0px 15px;
+    gap: 5px;
 }
+
+
+.section1{
+    height: 440px;
+    background-image: url(img/imagem\ section1.svg);
+    background-repeat: no-repeat;
+    font-family: 'Poppins';
+}
+
+.section1__conteudos__tituloPrincipal{
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--cor-douradoClaro);
+}
+
+.section1__conteudos__descricao{
+    font-size: 13px;
+    font-weight: 500;
+    color: #F1EECA;
+}
+
+.section1__conteudos__botao{
+    display: flex;
+    background: linear-gradient(180deg, rgb(190, 128, 5), rgb(248, 229, 120));
+    padding: 5px 7px;
+    text-decoration: none;
+    color: #3a3503;
+    font-weight: 600;
+    border-radius: 10px;
+    width: 250px;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.section1__conteudos__logo{
+    width: 100px;
+    margin-bottom: 7etpx;
+}
+
