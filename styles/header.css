@@ -1,29 +1,23 @@
 .header{
     display: flex;
     align-items: center;
-    gap: 150px;
-    padding-left: 15px;
+    justify-content: space-between;
+    padding: 0px 15px;
     width: 100vw;
     height: 80px;
     background: linear-gradient(180deg, rgb(190, 128, 5), rgb(248, 229, 120));
 }
 
 .header__itens__logo{
-    align-items: center;
-    justify-content: center;
-}
-
-.header__itens{
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    gap: 150px;
-    padding-left: 15px;
-}
-
-.header__itens__logo{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
     width: 75px;
     height: 75px;
+}
+
+.header__itens__menu{
+    order: 1;
 }
 
 .header_buttonIndex{
