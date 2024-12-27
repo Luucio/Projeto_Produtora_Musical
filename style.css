@@ -10,13 +10,13 @@
 .section1__conteudos{
     display: flex;
     flex-direction: column;
-    padding: 75px 0px 0px 15px;
-    gap: 5px;
+    padding: 3.12rem 0rem 0rem 0.93rem;
+    gap: 0.31rem;
 }
 
 
 .section1{
-    height: 440px;
+    height: 240px;
     background-image: url(img/imagem\ section1.svg);
     background-repeat: no-repeat;
     background-size: contain;
@@ -38,18 +38,51 @@
 .section1__conteudos__botao{
     display: flex;
     background: linear-gradient(180deg, rgb(190, 128, 5), rgb(248, 229, 120));
-    padding: 5px 7px;
+    padding: 0.31rem 0.43rem;
     text-decoration: none;
     color: #3a3503;
     font-weight: 600;
     border-radius: 10px;
-    width: 250px;
+    width: 15.62rem;
     justify-content: center;
-    margin-top: 8px;
+    margin-top: 0.5rem;
 }
 
 .section1__conteudos__logo{
     width: 100px;
-    margin-bottom: 7px;
+    margin-bottom: 0.43rem;
 }
 
+.section2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #c1850b;
+    height: 500px;
+}
+
+.section2_titulo{
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    color: var(--cor-douradoClaro);
+    width: 380px;
+}
+
+.section2_subtitulo{
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 150px;
+    text-align: center;
+    width: 380px;
+    margin: 150px 25px 0px 25px;
+    color: #e9e18e;
+}
+
+.section2_descricao{
+    width: 385px;
+    margin-top: 15px;
+    color: #f1eeca;
+    text-align: justify;
+    font-size: 18px;
+}
